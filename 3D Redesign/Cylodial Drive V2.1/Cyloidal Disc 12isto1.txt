@@ -1,0 +1,34 @@
+X = (40*cos(t))-(4*cos(t+arctan(sin((1-13)*t)/((13/1*13)-cos((1-13)*t)))))-(1*cos(13*t))
+y = (-40*sin(t))+(4*sin(t+arctan(sin((1-13)*t)/((13/(1*13))-cos((1-13)*t)))))+(1*sin(13*t))
+
+N = 13
+Rr = 8/2 = 4
+R = 80/2 = 40
+E = 1
+
+x = (R*cos(t))-(Rr*cos(t+arctan(sin((1-N)*t)/((R/(E*N))-cos((1-N)*t)))))-(E*cos(N*t))
+y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/(E*N))-cos((1-N)*t)))))+(E*sin(N*t))
+
+x = (40*cos(t))-(4*cos(t+arctan(sin((1-13)*t)/((40/(1*13))-cos((1-13)*t)))))-(1*cos(13*t))
+y = (-40*sin(t))+(4*sin(t+arctan(sin((1-13)*t)/((40/(1*13))-cos((1-13)*t)))))+(1*sin(13*t))
+
+x = (40*cos(t))-(4*cos(t+arctan(sin((1-14)*t)/((40/(1*14))-cos((1-14)*t)))))-(1*cos(14*t))
+y = (-40*sin(t))+(4*sin(t+arctan(sin((1-14)*t)/((40/(1*14))-cos((1-14)*t)))))+(1*sin(14*t))
+
+Bearing: Inner Diameter x Outer Diameter x Width
+https://shopee.ph/product/1309325126/27406391342?d_id=12dce&uls_trackid=5243gmc001sh
+Bearing for  : 13 x 25 x 6
+Bearing for Eccentric Shaft and Inner Cycloidal Disc: 15 x 26 x 7 15267RS (2 - 15 x 21 x 4 6702RS)
+Bearing for Outer Shaft and Outer Cover - 35 x 47 x 7 6807-2RS
+Bearing for Leg link and Foot - 15 x 32 x 9 6002-2RS or 10 x 30 x 9 6200-2RS
+
+Dowel Pin: 6 x 25
+https://ph.shp.ee/mCcMX3j
+
+Bushings for Dowels: 6 x 8 x 22 
+Bushings for Output Shaft: 6 x 8 x 22
+
+To Edit for 3d Printing
+Dowel Pin Housing - Change height of housing to fit bushings
+Roller - Change diameter to 6mm
+
