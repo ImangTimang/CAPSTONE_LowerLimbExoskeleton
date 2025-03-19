@@ -1,0 +1,42 @@
+Exoskeleton Design Comments
+
+Chapter 1: 
+	Intro
+	 - Basically Introduce the Background, the gaps behind it and the primary general goal of the study. 
+	Project Objectives
+	 - Very Simple Objectives and limited objectives only.
+	Scope and Limitation
+	 - Defined the scope on what are the primary tasks of the project, What softwares and hardwares that will be using in this subject, what testing methods will be covered in thie project, the specific beneficiaries of the respective project.
+	Importance of the Study
+	 - What problems does this address to? 
+
+Chatper 2:
+	Conceptuall Literature
+	 - Always dependent on the following topic involved
+		 - Ang ginawa ng kuya Albert ay more on the orthosis-based robots.
+			 - sa Orthosis based, may AAFO, KAFO, HAL, at BLEEX
+			 - AAFO - Need of better control system and actuation system 
+			 - KAFO - Nagami ng PAM
+			 - HAL - This uses EMG Signals nmn
+			 - BLEEX - 
+	 - Purpose of Exoskeleton Robot 
+		 - in Medical
+		 - in Non-Medical
+	 - Modes ogf the Robot Control Mechanisms
+		 - Position Control
+		 - Force Control
+		 - Impeedance Control 
+		 - 
+
+
+
+Comments No. 1
+
+1. Didn't define the following, sensors and actuators needed since this is only focused on the simulation of the robot
+2. No involvement of the respective Inverse Kinematics of the Exoskeleton since it is too difficult to communicate
+3. Since no development, only the design in being chosen
+4. There is a need of comparing the simulation and the physical hardware network.
+5. Kulang ng Sensors sa Previous study na involved
+6 Mali ang grublers formulang ginamit
+7. Alumnum 6061 ang mismong material na gamit
+

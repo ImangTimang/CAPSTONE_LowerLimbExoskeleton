@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/07/24||13:12:42" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Exoskeleton Assembly UTOG" uid="Exoskeleton Assembly UTOG" version="426">
+<AssemblyFile name="Exoskeleton Assembly UTOG.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Thigh Assembly-1" uid="Thigh Assembly-1" entityUid="Thigh Assembly" rigid="true">
+<Transform>
+<Rotation>-0.005389495889613044 0 0.99998547656156278 1.7524118323055587e-15 -1 0 0.99998547656156289 1.7726693315041822e-15 0.0053894958896130935</Rotation>
+<Translation>0.083151162735193115 -0.033209635946861091 0.10086796641500852</Translation>
+</Transform>
+<Instance name="Thigh Cover-1" uid="Thigh Cover-1" entityUid="Thigh Cover*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -2.7003367242721802e-16 0 2.2956668865410282e-16 -1 0 0 0 1</Rotation>
+<Translation>-0.11258871204739758 0.027545177197579603 -0.044474361537663959</Translation>
+</Transform>
+</Instance>
+<Instance name="Thigh-1" uid="Thigh-1" grounded="true" entityUid="Thigh*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11258871204739765 -0.021904822802420409 -0.044474361537664035</Translation>
+</Transform>
+</Instance>
+<Instance name="Thigh Small Cover-1" uid="Thigh Small Cover-1" entityUid="Thigh Small Cover*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11259012708376344 0.0034951771975796006 0.16746920902767842</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Leg Assembly-3" uid="Leg Assembly-3" entityUid="Leg Assembly" rigid="true">
+<Transform>
+<Rotation>0.012633853308890483 0 -0.99992018969044194 0 1 0 0.99992018969044194 0 0.012633853308890483</Rotation>
+<Translation>0.52916974665017102 -0.62779344180714902 0.024794768622738116</Translation>
+</Transform>
+<Instance name="Leg-1" uid="Leg-1" grounded="true" entityUid="Leg*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.046797569173179461 -0.021691371337291598 -0.13223719429285119</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg Cover-1" uid="Leg Cover-1" entityUid="Leg Cover*:*Default">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1 0 0 0 1</Rotation>
+<Translation>-0.046797569173179746 0.029108628662708136 -0.13223719429285108</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Joint-1" uid="Joint-1" entityUid="Joint*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>0.039284243518977198 -0.64948481314444095 -0.011958804845862045</Translation>
+</Transform>
+</Instance>
+<Instance name="Extension 2-1" uid="Extension 2-1" entityUid="Extension 2*:*Default">
+<Transform>
+<Rotation>0.024896173729803902 0.99969004222989821 3.3005658559570413e-16 1.5595629780717987e-16 -3.3404283985391039e-16 0.99999999999999989 0.99969004222989821 -0.024896173729803902 -1.6422434651508585e-16</Rotation>
+<Translation>0.31632375889609532 -0.62908481314444065 -0.018821740934712613</Translation>
+</Transform>
+</Instance>
+<Instance name="Hip-1" uid="Hip-1" entityUid="Hip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10439575648102278 -0.32769481314444082 0.08693619515413703</Translation>
+</Transform>
+</Instance>
+<Instance name="Extension 2-2" uid="Extension 2-2" entityUid="Extension 2*:*Default">
+<Transform>
+<Rotation>0.0053894958896134396 0.99998547656156289 -2.1069419526534304e-16 -1.9106613186825651e-15 -1.9004390404980579e-16 -0.99999999999999989 -0.99998547656156289 0.0053894958896133884 1.9230595295875159e-15</Rotation>
+<Translation>0.31640454338812235 -0.031704813144440902 -0.010431658985745164</Translation>
+</Transform>
+</Instance>
+<Instance name="Hip-3" uid="Hip-3" entityUid="Hip*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>-0.10439575648102278 -0.33309481314444089 0.086936195154137474</Translation>
+</Transform>
+</Instance>
+<Instance name="Extension for hip part-1" uid="Extension for hip part-1" grounded="true" entityUid="Extension for hip part*:*Default">
+<Transform>
+<Rotation>0 0 1.0000000000000002 1.0000000000000002 0 0 0 1 0</Rotation>
+<Translation>-0.10440075648102276 -0.33039481314444086 0.08693619515413703</Translation>
+</Transform>
+</Instance>
+<Instance name="Joint-2" uid="Joint-2" entityUid="Joint*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 -6.9829626776862667e-15 -1 0 1 -6.9829626776862667e-15 3.4914813388431334e-15</Rotation>
+<Translation>0.039284243518977253 -0.011304813144440732 -0.011958804845862963</Translation>
+</Transform>
+</Instance>
+<Instance name="Thigh Assembly-2" uid="Thigh Assembly-2" entityUid="Thigh Assembly" rigid="true">
+<Transform>
+<Rotation>-0.02489617372980393 -4.8935960486122517e-16 0.99969004222989821 -1.4865920334201529e-16 1 4.8580913982598168e-16 -0.99969004222989821 -1.3651833652221564e-16 -0.02489617372980393</Rotation>
+<Translation>0.080941791747565384 -0.62757999034202039 -0.12561986057849914</Translation>
+</Transform>
+<Instance name="Thigh Cover-1" uid="Thigh Cover-1" entityUid="Thigh Cover*:*Default">
+<Transform>
+<Rotation>-1.0000000000000002 -2.4980018054066747e-16 0 2.4980018054065307e-16 -1 0 0 0 1.0000000000000002</Rotation>
+<Translation>-0.11258871204739759 0.027545177197579651 -0.044474361537663966</Translation>
+</Transform>
+</Instance>
+<Instance name="Thigh-1" uid="Thigh-1" grounded="true" entityUid="Thigh*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11258871204739765 -0.021904822802420454 -0.044474361537664035</Translation>
+</Transform>
+</Instance>
+<Instance name="Thigh Small Cover-1" uid="Thigh Small Cover-1" entityUid="Thigh Small Cover*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.11259012708376345 0.0034951771975796353 0.16746920902767848</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Leg Assembly-2" uid="Leg Assembly-2" entityUid="Leg Assembly" rigid="true">
+<Transform>
+<Rotation>0.0069978659002276258 -2.3726686119058594e-16 -0.99997551463665468 -1.8345620761933809e-15 -1 2.2750170270754875e-16 -0.99997551463665479 1.8225820722719113e-15 -0.0069978659002270724</Rotation>
+<Translation>0.52900822548534587 -0.032996184481732485 -0.055807546520595823</Translation>
+</Transform>
+<Instance name="Leg-1" uid="Leg-1" grounded="true" entityUid="Leg*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.046797569173179385 -0.021691371337291546 -0.13223719429285108</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg Cover-1" uid="Leg Cover-1" entityUid="Leg Cover*:*Default">
+<Transform>
+<Rotation>-1 6.9933269465148213e-15 5.5250942709861296e-16 -6.9933269465148213e-15 -1 0 5.5250942709861296e-16 0 1</Rotation>
+<Translation>-0.046797569173179676 0.029108628662708122 -0.13223719429285108</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Foot with straps-1" uid="Foot with straps-1" entityUid="Foot with straps*:*Default">
+<Transform>
+<Rotation>-0.13470492135228831 -0.99088575737239937 -2.2654550880742998e-16 1.8433911873186605e-15 0 -1 0.99088575737239948 -0.1347049213522889 1.841660550945555e-15</Rotation>
+<Translation>0.74373028311678246 -0.061954813144440915 0.0016639021862688771</Translation>
+</Transform>
+</Instance>
+<Instance name="Foot with straps-2" uid="Foot with straps-2" entityUid="Foot with straps*:*Default">
+<Transform>
+<Rotation>0.18751815693487797 -0.98226113677562699 0 1.1074279451197203e-16 0 1 -0.98226113677562676 -0.187518156934878 0</Rotation>
+<Translation>0.74300110143322895 -0.59883481314444054 -0.010359368897132005</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>-0.038499999999999993 0.1275 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>-0.12700000000000006 0.0040000000000000036 0.03850000000000002</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>-0.038499999999999993 0.1275 0.0040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>-0.038499999999999979 0.1275 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>-0.038499999999999979 0.1275 0.0040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>-0.12700000000000006 0.0040000000000000036 -0.038500000000000006</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>0.044449999999999976 -1.1102230246251565e-16 -0.076494999999999494</Position>
+<Axis>0 -1.7128238935923311e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-1</Uid>
+</InstancePath>
+<Position>-0.022400000000000017 0.036399999999999988 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>0.044450000000000003 0.29939000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>0.044449999999999976 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-1</Uid>
+</InstancePath>
+<Position>0 0.036399999999999988 -0.18812999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>0.044450000000000003 -1.1102230246251565e-16 -0.076494999999999494</Position>
+<Axis>0 -1.7128238935923311e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-2</Uid>
+</InstancePath>
+<Position>0.022400000000000003 0.036400000000000002 0</Position>
+<Axis>1 0 -1.0506577354121861e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>0.044450000000000003 0.27999000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-2</Uid>
+</InstancePath>
+<Position>0 0.036400000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>-0.04444999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-2</Uid>
+</InstancePath>
+<Position>0 0.036400000000000002 -0.18813000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint-2</Uid>
+</InstancePath>
+<Position>0 0.017000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0.006349999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Joint-1</Uid>
+</InstancePath>
+<Position>0 0.017000000000000015 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0.0063499999999999668 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0.0224335849636342 0.031749999999999987 0.15065450567586625</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension 2-2</Uid>
+</InstancePath>
+<Position>-0.022400000000000003 0 0.0049999999999999975</Position>
+<Axis>-1.0000000000000002 -3.9291486730874681e-16 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0.0224335849636342 0.031749999999999945 0.1506545056758663</Position>
+<Axis>-1.0000000000000002 0 1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension 2-1</Uid>
+</InstancePath>
+<Position>-0.022400000000000003 0 0.0050000000000000044</Position>
+<Axis>-1.0000000000000002 -3.4000580129145419e-16 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension 2-2</Uid>
+</InstancePath>
+<Position>0 0.040399999999999991 0.012699999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Leg Assembly-2</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>-1.6826817716975029e-16 0.03175 0.30411818859205447</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg Assembly-2</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh Small Cover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension 2-2</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh Small Cover-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Extension 2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg Assembly-3</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension 2-1</Uid>
+</InstancePath>
+<Position>0 0.040400000000000047 0.012699999999999934</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Leg Assembly-3</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0.031749999999999945 0.30411818859205453</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Leg Assembly-2</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0.044450000000000003 -0.011700000000000155</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Foot with straps-1</Uid>
+</InstancePath>
+<Position>0 0.071770000000000111 -0.10337000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg Assembly-2</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0.0063500000000000015 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Foot with straps-1</Uid>
+</InstancePath>
+<Position>-0.088899999999999993 0.0063500000000000778 -0.044299999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Leg Assembly-3</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0.04444999999999999 -0.011700000000000044</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Foot with straps-2</Uid>
+</InstancePath>
+<Position>0 0.071770000000000111 -0.10336999999999996</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg Assembly-3</Uid>
+<Uid>Leg-1</Uid>
+</InstancePath>
+<Position>0 0.0063499999999999668 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Foot with straps-2</Uid>
+</InstancePath>
+<Position>-0.088900000000000062 0.0063500000000000778 -0.044300000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Thigh Assembly-1</Uid>
+<Uid>Thigh Small Cover-1</Uid>
+</InstancePath>
+<Position>0.012435000000000014 0.0063500000000000015 -0.026419064889476179</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension 2-2</Uid>
+</InstancePath>
+<Position>-0.012400000000000008 -0.091600000000000015 0.016939999999999997</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Thigh Assembly-2</Uid>
+<Uid>Thigh Small Cover-1</Uid>
+</InstancePath>
+<Position>-0.012435000000000019 0.0063499999999999668 -0.026419064889476207</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension 2-1</Uid>
+</InstancePath>
+<Position>0.012400000000000001 -0.091600000000000015 0.016940000000000066</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>-0.11430000000000007 0.0067650000000000071 -0.022220000000000018</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hip-3</Uid>
+</InstancePath>
+<Position>0.022224999999999981 0.11159999999999998 -0.162435</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hip-1</Uid>
+</InstancePath>
+<Position>-0.022225000000000023 0.11159999999999998 -0.162435</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Extension for hip part-1</Uid>
+</InstancePath>
+<Position>0.11430000000000001 0.0067650000000000071 -0.022220000000000045</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Thigh Assembly" uid="Thigh Assembly" version="122">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Thigh Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Leg Assembly" uid="Leg Assembly" version="107">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Leg Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Extension 2" uid="Extension 2*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Extension 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11018838198736822</Mass>
+<CenterOfMass>0 -0.0047823516692941607 6.7219848025906219e-05</CenterOfMass>
+<Inertia>0.00023597865149279547 2.1814637714797176e-05 0.0002499758039037463 6.430449765673574e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extension 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Extension for hip part" uid="Extension for hip part*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Extension for hip part.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15708942826547667</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>7.8469446179226727e-05 0.00092699138077739361 0.00085022791980243512 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Extension for hip part_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Foot with straps" uid="Foot with straps*:*Default" version="182">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Foot with straps.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.45909006821258891</Mass>
+<CenterOfMass>0 0.011442155212727774 -0.007289830075368051</CenterOfMass>
+<Inertia>0.00054428758932398161 0.0023302241422860051 0.0021847746626166946 0.00012791549131001487 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Foot with straps_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hip" uid="Hip*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.50300952151120137</Mass>
+<CenterOfMass>0 0.18815158350387509 -0.026344673710949909</CenterOfMass>
+<Inertia>0.0048106805327941277 0.0014610659440282001 0.0040425804883819985 0.0012526012892286628 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Hip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Joint" uid="Joint*:*Default" version="127">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.28286134682270053</Mass>
+<CenterOfMass>0 0.019863131267469674 -0.054220491591158493</CenterOfMass>
+<Inertia>0.0011836238969044927 0.0012361460372162872 0.00011470634547776289 0.00010485624405632128 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Joint_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Leg Cover" uid="Leg Cover*:*Default" version="168">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Leg Cover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.22870449564040982</Mass>
+<CenterOfMass>0 0.0050924692479116466 0.15986462156653258</CenterOfMass>
+<Inertia>0.0021855069686585417 0.0023276413554275833 0.0001512719255342128 8.2871101780554799e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Leg Cover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Leg" uid="Leg*:*Default" version="148">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Leg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.32760639146179643</Mass>
+<CenterOfMass>0 0.012969291721796858 0.15272902285646775</CenterOfMass>
+<Inertia>0.0030632363541691575 0.0033073799320766373 0.00035953956059274337 5.0222815228975216e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Leg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Thigh Cover" uid="Thigh Cover*:*Default" version="177">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Thigh Cover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.69141004985654464</Mass>
+<CenterOfMass>0 0.0038565654944462836 0.098616773864258017</CenterOfMass>
+<Inertia>0.0059983607648907795 0.0071119331023678008 0.0011329174288824452 -2.7455109596860657e-05 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Thigh Cover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Thigh Small Cover" uid="Thigh Small Cover*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Thigh Small Cover.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029123438274694675</Mass>
+<CenterOfMass>0 0.0031749999999999999 -0.001610228817790327</CenterOfMass>
+<Inertia>4.1245255873626055e-05 4.6099391159905187e-05 5.0498569262510271e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Thigh Small Cover_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Thigh" uid="Thigh*:*Default" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Thigh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.39318348059190511</Mass>
+<CenterOfMass>-2.5894502505149873e-05 0.011402699578503107 0.11454078628397336</CenterOfMass>
+<Inertia>0.0033281001164807405 0.0041420062882370013 0.00093273756363853309 -3.6004833725155167e-05 -5.122604126742073e-08 3.3595510537143457e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Thigh_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
