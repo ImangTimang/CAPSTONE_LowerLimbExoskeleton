@@ -15201,3 +15201,5 @@ Set Part = swApp.ActiveDoc
 Set swAssembly = Nothing
 Set Part = Nothing
 swApp.CloseDoc "Foot flat assembly"
+swApp.ExitApp
+End Sub
