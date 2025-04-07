@@ -1,0 +1,16 @@
+[StartTime]
+Leg Assembly-Static at 130N.MFC=5m:27s
+[SolverState]
+Leg Assembly-Static at 130N.MFC=1
+[MainFrame]
+Leg Assembly-Static at 130N.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPOBAAAAACFAAAAAAHFDAAAAAOHCAAAAA
+[ShowMin]
+Leg Assembly-Static at 130N.MFC=No
+[SolverType]
+Leg Assembly-Static at 130N.MFC=Linear Analysis
+[StudyType]
+Leg Assembly-Static at 130N.MFC=0
+[StudyName]
+Leg Assembly-Static at 130N.MFC=Static at 130N
+[Solver]
+Leg Assembly-Static at 130N.MFC=Iterative

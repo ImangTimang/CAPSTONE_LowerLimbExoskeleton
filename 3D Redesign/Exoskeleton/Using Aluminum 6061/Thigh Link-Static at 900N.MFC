@@ -1,0 +1,16 @@
+[StartTime]
+Thigh Link-Static at 900N.MFC=1s
+[SolverState]
+Thigh Link-Static at 900N.MFC=2
+[MainFrame]
+Thigh Link-Static at 900N.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Thigh Link-Static at 900N.MFC=No
+[SolverType]
+Thigh Link-Static at 900N.MFC=Linear Analysis
+[StudyType]
+Thigh Link-Static at 900N.MFC=0
+[StudyName]
+Thigh Link-Static at 900N.MFC=Static at 900N
+[Solver]
+Thigh Link-Static at 900N.MFC=Iterative

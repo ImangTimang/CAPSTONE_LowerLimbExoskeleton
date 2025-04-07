@@ -1,0 +1,16 @@
+[StartTime]
+Hip Joint-Static 2.MFC=1s
+[SolverState]
+Hip Joint-Static 2.MFC=2
+[MainFrame]
+Hip Joint-Static 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Hip Joint-Static 2.MFC=No
+[SolverType]
+Hip Joint-Static 2.MFC=Linear Analysis
+[StudyType]
+Hip Joint-Static 2.MFC=0
+[StudyName]
+Hip Joint-Static 2.MFC=Static 2
+[Solver]
+Hip Joint-Static 2.MFC=Iterative
