@@ -1,10 +1,10 @@
-Rr = 6mm /2 = 3mm
+Rr = 8mm / 2 = 4mm
 
 GR = 12:1
 
 Number of rollers = 12 + 1 = 13 Rollers
 
-Ring Gear Pitch Radius = 62mm / 2 = 31 mm
+Ring Gear Pitch = 40mm / 2 = 20 mm
 
 Eccentricity = 1
 
@@ -16,6 +16,6 @@ Y = (-R*sin(t))+(Rr*sin(t+arctan(sin((1-N)*t)/((R/EN)-cos((1-N)*t)))))+(E*sin(N*
 
 Subsituting the Values:
 
-X = (31*cos(t))-(3*cos(t+arctan(sin((-12)*t)/((31/13)-cos((-12)*t)))))-(1*cos(13*t))
+X = (20*cos(t))-(4*cos(t+arctan(sin((-12)*t)/((20/13)-cos((-12)*t)))))-(1*cos(13*t))
 
-Y = (-31*sin(t))+(3*sin(t+arctan(sin((-12)*t)/((31/13)-cos((-12)*t)))))+(1*sin(13*t))
+Y = (-20*sin(t))+(4*sin(t+arctan(sin((-12)*t)/((20/13)-cos((-12)*t)))))+(1*sin(13*t))
