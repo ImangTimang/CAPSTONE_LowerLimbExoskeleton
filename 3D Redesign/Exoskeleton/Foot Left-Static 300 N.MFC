@@ -1,0 +1,16 @@
+[StartTime]
+Foot Left-Static 300 N.MFC=4s
+[SolverState]
+Foot Left-Static 300 N.MFC=2
+[MainFrame]
+Foot Left-Static 300 N.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Foot Left-Static 300 N.MFC=No
+[SolverType]
+Foot Left-Static 300 N.MFC=Linear Analysis
+[StudyType]
+Foot Left-Static 300 N.MFC=0
+[StudyName]
+Foot Left-Static 300 N.MFC=Static 300 N
+[Solver]
+Foot Left-Static 300 N.MFC=Iterative

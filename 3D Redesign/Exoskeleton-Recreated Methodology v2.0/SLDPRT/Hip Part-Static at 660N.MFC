@@ -1,0 +1,16 @@
+[StartTime]
+Hip Part-Static at 660N.MFC=3s
+[SolverState]
+Hip Part-Static at 660N.MFC=2
+[MainFrame]
+Hip Part-Static at 660N.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Hip Part-Static at 660N.MFC=No
+[SolverType]
+Hip Part-Static at 660N.MFC=Linear Analysis
+[StudyType]
+Hip Part-Static at 660N.MFC=0
+[StudyName]
+Hip Part-Static at 660N.MFC=Static at 660N
+[Solver]
+Hip Part-Static at 660N.MFC=Iterative
