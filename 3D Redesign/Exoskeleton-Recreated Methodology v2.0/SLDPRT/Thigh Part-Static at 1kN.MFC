@@ -1,0 +1,16 @@
+[StartTime]
+Thigh Part-Static at 1kN.MFC=3s
+[SolverState]
+Thigh Part-Static at 1kN.MFC=2
+[MainFrame]
+Thigh Part-Static at 1kN.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Thigh Part-Static at 1kN.MFC=No
+[SolverType]
+Thigh Part-Static at 1kN.MFC=Linear Analysis
+[StudyType]
+Thigh Part-Static at 1kN.MFC=0
+[StudyName]
+Thigh Part-Static at 1kN.MFC=Static at 1kN
+[Solver]
+Thigh Part-Static at 1kN.MFC=Iterative
