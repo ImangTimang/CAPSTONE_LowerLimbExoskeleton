@@ -1,0 +1,16 @@
+[StartTime]
+Foot Assembly R-Static at 300N.MFC=6m:22s
+[SolverState]
+Foot Assembly R-Static at 300N.MFC=2
+[MainFrame]
+Foot Assembly R-Static at 300N.MFC=MCAAAAAAAAAAAAAACAAAAAAAAADIPPPPAADIPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Foot Assembly R-Static at 300N.MFC=No
+[SolverType]
+Foot Assembly R-Static at 300N.MFC=Linear Analysis
+[StudyType]
+Foot Assembly R-Static at 300N.MFC=0
+[StudyName]
+Foot Assembly R-Static at 300N.MFC=Static at 300N
+[Solver]
+Foot Assembly R-Static at 300N.MFC=Iterative
